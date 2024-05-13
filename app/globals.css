@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  /* colors */
+  --red: #ff5470;
+  --cambio-blue: #d2ecf9;
+}
+
+html,
+body,
+:root {
+  height: 100%;
+}
