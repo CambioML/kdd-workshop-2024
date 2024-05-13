@@ -1,7 +1,6 @@
 'use client';
 
 import { useWindowScroll } from '@/app/hooks/useWindowScroll';
-import Container from './Container';
 
 const Navbar = () => {
   const isScrolled = useWindowScroll(50);
@@ -15,22 +14,32 @@ const Navbar = () => {
         py-4
         "
       >
-        <Container>
+        <div
+          className={`
+                max-w-screen-2xl
+                mx-auto
+                xl:px-20
+                md:px-10
+                sm:px-4
+                px-4
+                h-full
+                `}
+        >
           <div
             className="
-                    flex
-                    flex-row
-                    items-center
-                    justify-between
-                    gap-3
-                    md: gap-0
-                    text-xl
-                    text-neutral-100
-                    "
+          flex
+          flex-row
+          items-center
+          justify-between
+          gap-3
+          md: gap-0
+          text-xl
+          text-neutral-100
+          "
           >
             KDD Workshop 2024
           </div>
-        </Container>
+        </div>
       </div>
     </div>
   );

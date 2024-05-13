@@ -24,10 +24,10 @@ export default function Home() {
         />
       </Section>
       <Agenda />
-      <Section title="Slides">
-        <TextContainer text="Slides will be available here." />
-      </Section>
       <Speakers />
+      <Section title="Slides">
+        <TextContainer text="Slides will be available here after the workshop." />
+      </Section>
     </div>
   );
 }
