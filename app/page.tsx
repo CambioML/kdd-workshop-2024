@@ -7,26 +7,34 @@ import TextContainer from './components/TextContainer';
 export default function Home() {
   return (
     <div className="pb-20">
-      <Hero title="The Pros and Cons of RAG and Fine-tuning" subtitle="Workshop time and date - TBD" center />
+      <Hero
+        title="Domain-Driven LLM Development: Insights into RAG and Fine-Tuning Practices"
+        subtitle="Hands On Tutorials at 2024 ACM SIGKDD International Conference on Knowledge
+      Discovery and Data Mining, Barcelona, Spain"
+        center
+      />
       <Section title="Abstract">
         <TextContainer
-          text="When building Large Language Model (LLM) applications on domain specific data, there are two prominent methods:
-        Retrieval Augmented Generation (RAG) and LLM Fine-Tuning (FT). RAG improves LLM responses by searching external
-        knowledge bases outside of its training data sources. RAG extends the capabilities of LLMs to specific domains
-        or an organization's internal knowledge base, without the need to retrain the model. On the other hand,
-        Fine-tuning approach updates LLM weights with domain-specific data to improve performance on specific tasks. The
-        fine-tuned model is particularly effective to learn new knowledge in a specific domain that is not covered by
-        the LLM pre-training. This tutorial will walk through the RAG and FT techniques, provide the insights of the
-        advantages and limitations, and share best practices of adopting the right methodology for your use cases. All
-        the methods will be introduced in a hands-on lab to demonstrate how the RAG and LLM fine tuning works, and how
-        they perform to handle domain specific LLM tasks. We will use uniflow and pykoi, an open source python library,
-        to implement the RAG and FT techniques in the tutorial."
+          text="To improve Large Language Model (LLM) performance on domain specific applications,
+          ML developers often leverage Retrieval Augmented Generation (RAG) and LLM Fine-Tuning.
+          RAG extends the capabilities of LLMs to specific domains or an organization's internal
+          knowledge base, without the need to retrain the model. On the other hand, Fine-Tuning
+          approach updates LLM weights with domain-specific data to improve performance on specific
+          tasks. The fine-tuned model is particularly effective to systematically learn new
+          comprehensive knowledge in a specific domain that is not covered by the LLM pre-training.
+          This tutorial walks through the RAG and Fine-Tuning techniques, discusses the insights of
+          their advantages and limitations, and provides best practices of adopting the methodologies
+          for the LLM tasks anduse cases. The hands-on labs demonstrate the advanced techniques to
+          optimize the RAG and fine-tuned LLM architecture that handles domain specific LLM tasks.
+          The labs in the tutorial are designed by using a set of open-source python libraries to
+          implement the RAG and fine-tuned LLM architecture."
         />
       </Section>
       <Agenda />
       <Speakers />
-      <Section title="Slides">
-        <TextContainer text="Slides will be available here after the workshop." />
+      <Section title="Contents">
+        <TextContainer text="Slides: Coming Soon" />
+        <TextContainer text="Lab Notebooks: Coming Soon" />
       </Section>
     </div>
   );
