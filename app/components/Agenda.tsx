@@ -2,12 +2,13 @@ import Section from './Section';
 
 const agendaItems = [
   'Section 1: Introduction to RAG and LLM Fine-Tuning (20 mins)',
-  'Section 2: Lab1: RAG pipeline (30 mins)',
-  'Section 3: Lab 2: LLM fine-tuning (30 mins)',
+  'Section 2: Lab setup (10 mins)',
+  'Section 3: Lab 1: Advanced Techniques in RAG (40 mins) - Richard Song',
   'Break (10 mins)',
-  'Section 4: The Pros and Cons of RAG and Fine-tuning (30 mins)',
-  'Section 5: Lab3: RAG + Fine-tuning and Benchmarking (45 mins)',
-  'Section 6: Summary and Q&A (15 mins)',
+  'Section 4: Lab 2: LLM Fine-Tuning (40 mins) - Yunfei Bai, Rachel Hu ',
+  'Break (10 mins)',
+  'Section 5: Lab 3: RAG and Fine-Tuned Model Benchmarking (30 mins) - José Cassio dos Santos Junior',
+  'Section 6: Conclusion and Q&A (20 mins)',
 ];
 
 const Agenda = () => {
