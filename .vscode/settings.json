@@ -8,4 +8,10 @@
     "editor.codeActionsOnSave": {
         "source.fixAll.eslint": "explicit"
     },
+    "flake8.interpreter": [
+	    "/Users/goldpiggy/anaconda3/envs/uniflow/bin/python"
+	],
+    "pylint.interpreter": [
+	    "/Users/goldpiggy/anaconda3/envs/uniflow/bin/python"
+	],
 }
