@@ -34,7 +34,8 @@ export default function Home() {
       <Speakers />
       <Section title="Contents">
         <TextContainer text="Slides: Coming Soon" />
-        <TextContainer text="Lab Notebooks: Coming Soon" />
+        <TextContainer text="Lab notebooks: https://github.com/goldmermaid/kdd-2024-rag-vs-finetuning" />
+        <TextContainer text="Lab access link: https://catalog.us-east-1.prod.workshops.aws/join?access-code=<team code>" />
       </Section>
     </div>
   );
